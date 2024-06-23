@@ -20,15 +20,29 @@ To get started with the chess engine, you can clone the repository and compile t
 
 ### Installation
 
-1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/ChessEngineC.git
    cd ChessEngineC
    cd Szachy
-   .\chess_2_0.exe
-   
+   gcc -o chess_engine main.c
+   .\chess_2_0
+   bash
+   ```
+
+### Usage
+The main functions and their purposes are as follows:
+
+`generator_legalnych_ruchow`
+Generates a list of all legal moves for a given board position and player color.
+
+`pat_mat`
+Determines the game state (ongoing, stalemate, or checkmate).
+
+`ocen_pozycje`
+Evaluates the board position to assign a numerical score.
 
 
-Special thanks to the author of this video, which helped me in understanding the construction of simple chess engine:
 
-https://www.youtube.com/watch?v=U4ogK0MIzqk
+### Acknowledgements
+Special thanks to the author of this video, which helped me in understanding the construction of a simple chess engine.
