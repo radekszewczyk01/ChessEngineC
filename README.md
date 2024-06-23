@@ -24,6 +24,9 @@ To get started with the chess engine, you can clone the repository and compile t
    ```bash
    git clone https://github.com/yourusername/ChessEngineC.git
    cd ChessEngineC
+   cd Szachy
+   .\chess_2_0.exe
+   
 
 
 Special thanks to the author of this video, which helped me in understanding the construction of simple chess engine:
